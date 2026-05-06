@@ -7,6 +7,7 @@ job "it-tools" {
 
     network {
       port "http" {
+        static = 8080
         to = 80
       }
     }
