@@ -36,6 +36,14 @@ docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corent
 - [Tipi](https://www.runtipi.io/docs/apps-available)
 - [Unraid](https://unraid.net/community/apps?q=it-tools)
 
+**Nomad:**
+
+You can easily deploy IT-Tools in a [Nomad](https://www.nomadproject.io/) cluster using the provided job file:
+
+```sh
+nomad job run it-tools.nomad
+```
+
 ## Contribute
 
 ### Recommended IDE Setup
